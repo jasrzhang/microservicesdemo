@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dogmicroservices/dogmicroservices.iml" filepath="$PROJECT_DIR$/dogmicroservices/dogmicroservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo/eurekademo.iml" filepath="$PROJECT_DIR$/eurekademo/eurekademo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservicesdemo.iml" filepath="$PROJECT_DIR$/.idea/microservicesdemo.iml" />
     </modules>

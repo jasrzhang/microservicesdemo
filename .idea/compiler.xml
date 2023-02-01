@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekademo" />
+        <module name="dogmicroservices" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dogmicroservices" target="17" />
       <module name="eurekademo" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dogmicroservices" options="-parameters" />
       <module name="eurekademo" options="-parameters" />
     </option>
   </component>
